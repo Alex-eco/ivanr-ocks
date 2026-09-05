@@ -9,7 +9,7 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <div className="hero-kicker">GUITAR / ROCK / BEGINNER</div>
+        <div className="hero-kicker">GUITAR / ROCK / TECHNICAL DEATH METAL</div>
 
         <h1>
           PLAY THE MUSIC
@@ -33,11 +33,11 @@ export default function Home() {
 
         <div>
           <h2>
-            RAW.
+            TECHNICAL.
             <br />
-            LOUD.
+            HEAVY.
             <br />
-            MELODIC.
+            PRECISE.
           </h2>
 
           <p>
