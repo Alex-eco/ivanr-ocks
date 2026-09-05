@@ -3,7 +3,7 @@ import {
   COOKIE_NAME,
   getAdminToken,
   isValidPassword,
-} from "@/app/lib/auth";
+} from "../../../lib/auth";
 
 export async function POST(request: Request) {
   try {
