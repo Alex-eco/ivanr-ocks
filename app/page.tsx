@@ -53,8 +53,8 @@ export default function Home() {
         <div className="sound-grid">
           <div>
             <span>01</span>
-            <strong>RAW / ALT ROCK</strong>
-            <p>Loud guitars. Raw energy. Melodic hooks.</p>
+<h3>TECHNICAL DEATH METAL</h3>
+<p>Complex riffs. Extreme precision. No limits.</p>
           </div>
 
           <div>
