@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/app/lib/db";
+import { sql } from "../../lib/db";
 
 export async function POST(request: Request) {
   try {
@@ -26,7 +26,15 @@ export async function POST(request: Request) {
       INSERT INTO applications
         (name, instrument, level, intent, sound, email, band_id)
       VALUES
-        (${name}, ${instrument}, ${level}, ${intent}, ${sound || null}, ${email}, ${bandId || null})
+        (
+          ${name},
+          ${instrument},
+          ${level},
+          ${intent},
+          ${sound || null},
+          ${email},
+          ${bandId || null}
+        )
       RETURNING id, status, created_at;
     `;
 
