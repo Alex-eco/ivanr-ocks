@@ -65,8 +65,8 @@ export default function Home() {
 
           <div>
             <span>03</span>
-            <strong>ROCK / FUNK</strong>
-            <p>Technical playing. Groove. Melodic chaos.</p>
+<h3>DJENT</h3>
+<p>Low tunings. Tight grooves. Technical riffs.</p>
           </div>
         </div>
       </section>
