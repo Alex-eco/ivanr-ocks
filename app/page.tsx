@@ -59,8 +59,8 @@ export default function Home() {
 
           <div>
             <span>02</span>
-            <strong>GRUNGE / ROCK</strong>
-            <p>Dirty riffs. Heavy groove. No polish.</p>
+<h3>DEATHCORE</h3>
+<p>Heavy breakdowns. Brutal energy. Modern metal.</p>
           </div>
 
           <div>
