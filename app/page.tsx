@@ -84,7 +84,22 @@ export default function Home() {
 
       <footer>
         <span>IVANR.OCKS</span>
-        <span>© 2026</span>
+
+        <div className="footer-links">
+          <span>© 2026</span>
+
+          <a
+            href="https://x.com/ivanrrock"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            X / @ivanrrock
+          </a>
+
+          <a href="mailto:ivanr.music@proton.me">
+            ivanr.music@proton.me
+          </a>
+        </div>
       </footer>
     </main>
   );
