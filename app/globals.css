@@ -516,3 +516,40 @@ textarea:focus {
     gap: 30px;
   }
 }
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-links span,
+.footer-links a {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+.footer-links a {
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  footer {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .footer-links span,
+  .footer-links a {
+    font-size: 10px;
+  }
+}
