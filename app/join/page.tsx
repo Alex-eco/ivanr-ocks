@@ -9,18 +9,18 @@ const bands = [
   description: "Complex riffs. Extreme precision. No limits.",
   tags: ["Technical", "Death Metal", "Extreme Metal"],
 },
-  {
-    id: 2,
-    name: "GRUNGE / ROCK",
-    description: "Dirty riffs. Heavy groove. No polish.",
-    tags: ["Grunge", "Rock", "Alternative"],
-  },
-  {
-    id: 3,
-    name: "ROCK / FUNK",
-    description: "Technical playing. Groove. Melodic chaos.",
-    tags: ["Rock", "Funk Rock", "Technical"],
-  },
+{
+  id: 2,
+  name: "DEATHCORE",
+  description: "Heavy breakdowns. Brutal energy. Modern metal.",
+  tags: ["Deathcore", "Metalcore", "Extreme Metal"],
+},
+{
+  id: 3,
+  name: "DJENT",
+  description: "Low tunings. Tight grooves. Technical riffs.",
+  tags: ["Djent", "Progressive Metal", "Technical"],
+},
 ];
 
 export default function JoinPage() {
