@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { sql } from "@/app/lib/db";
-import { COOKIE_NAME, isValidToken } from "@/app/lib/auth";
+import { sql } from "../../../lib/db";
+import { COOKIE_NAME, isValidToken } from "../../../lib/auth";
 
 export async function PATCH(
   request: Request,
