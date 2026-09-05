@@ -3,12 +3,12 @@
 import { FormEvent, useMemo, useState } from "react";
 
 const bands = [
-  {
-    id: 1,
-    name: "RAW / ALT ROCK",
-    description: "Loud guitars. Raw energy. Melodic hooks.",
-    tags: ["Rock", "Alternative", "Grunge"],
-  },
+{
+  id: 1,
+  name: "TECHNICAL DEATH METAL",
+  description: "Complex riffs. Extreme precision. No limits.",
+  tags: ["Technical", "Death Metal", "Extreme Metal"],
+},
   {
     id: 2,
     name: "GRUNGE / ROCK",
