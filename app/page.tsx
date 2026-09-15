@@ -99,6 +99,9 @@ export default function Home() {
           <a href="mailto:ivanr.music@proton.me">
             ivanr.music@proton.me
           </a>
+          <span>·</span>
+<span>USDT — BSC / Polygon:</span>
+<span>0x510D84Ccfd47fF2cD5dd86Dd34c601293a42cab3</span>
         </div>
       </footer>
     </main>
